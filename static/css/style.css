@@ -1,0 +1,140 @@
+body{
+	font-family: Roboto;
+	font-weight: 400;
+	background: #fff;
+	line-height: 30px;
+}
+/*HEADER*/
+
+#header{
+	background: #009999;
+	margin-bottom: 20px;
+}
+a#logo{
+	display: block;
+	padding: 14px 0px;
+}
+a#logo img{
+	display: block;
+}
+#main-menu li{
+	float: left;
+	display: block;
+}
+#main-menu li a{
+	display: block;
+	font-size: 16px;
+	font-weight: 500;
+	padding: 25px 20px;
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+}
+#main-menu li:hover a, #main-menu .active{
+	background: #f0f0f0;
+	color: #404040;
+	transition: all 0.25s;
+}
+/*CONTENT*/
+
+/*wp-ontent*/
+#wp-content{
+	padding: 30px 0px;
+	background: #fbfbfb;
+}
+
+
+/*content*/
+#content{
+	width: 875px;
+	padding: 0px 28px 0px 30px;
+	border-right: 1px solid #ededed;
+}
+#content h1.post-title, #sidebar .widget .widget-title h4{
+	font-size: 23px;
+	font-weight: 500;
+	line-height: 30px;
+	padding: 13px 0px;
+	margin-bottom: 18px;
+	text-transform: uppercase;
+	color: #333333;
+}
+#content .post-detail p{
+	line-height: 28px;
+	color: #444444;
+	font-size: 16px;
+	margin-bottom: 15px; 
+}
+#content .post-detail .thumb{
+	display: block;
+	margin: 0px auto 20px auto;
+	width: 400px;
+	height: 300px;
+}
+
+/*Sidebar*/
+#sidebar{
+	width: 295px;
+}
+.widget{
+	padding: 0px 15px 0px 30px;
+}
+
+#sidebar ul.list-category li a{
+	display: block;
+	font-size: 14px;
+	line-height: 35px;
+	color: #555555;
+	text-decoration: none;
+	padding-left: 16px;
+	position: relative;
+}
+#sidebar ul.list-category li a:before{
+	font-family: "Font Awesome 5 Free";
+	font-size: 14px;
+	font-weight: 900;
+	content: "\f105";
+	position: absolute;
+	left: 0px;
+}
+ #sidebar ul.list-category li:hover a{
+ 	color: #009999;
+ 	transition: color 0.5s;
+ }
+#sidebar ul.list-category li:hover a:before{
+	left: 3px;
+	transition: left 1s;
+}
+
+/*Footer*/
+#footer{
+	background: #333333;
+	color: #e3e3e3;
+	font-size: 13px;
+	margin-top: 30px;
+	padding: 40px 0px 55px 0px;
+}
+#footer .widget .widget-title h4{
+	font-size: 21px;
+	font-weight: 500;
+	color: #fff;
+	padding: 5px 0px;
+	margin-bottom: 10px; 
+	text-transform: uppercase;
+}
+#footer .widget .widget-detail ul.list-course li a{
+	color: #e3e3e3;
+	text-decoration: none;
+	display: block;
+}
+
+#Copyright{
+	background: #404040;
+	color: #e3e3e3;
+	font-size: 13px;
+	padding: 8px 0px;
+}
+#Copyright a{
+	color: #e3e3e3;
+	text-decoration: none;
+}

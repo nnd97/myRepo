@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+        p {
+            display: inline-block;
+        }
+        </style>
+    </head>
+    <body>
+        <h1> Chào mừng đến với Trại web, xin hãy điền thông tin </h1>
+            <form method="POST" action="/">
+                {{ form.csrf_token }}
+                <label for="name">Tên: </label>
+                <input type="text" id="name" name="name" placeholder="Nguyen Van A" required>
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" placeholder="example@example.com" required>
+                <input type="submit" value="Go">
+            </form>
+    </body>
+</html>
